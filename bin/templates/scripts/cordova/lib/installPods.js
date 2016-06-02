@@ -58,7 +58,7 @@ function installPodsSync (projectName, pathToProjectFile, nameOfPod, podSpec) {
      
     fs.writeFileSync('Podfile', stringToWrite);
     // once all is good in the Podfile, cocoapods will handle the installation 
-    superspawn.spawn('pod', ['install', '--verbose'], {});
+    superspawn.spawn('pod', ['install'], {});
     
     //-----------
     //ERRORS 
