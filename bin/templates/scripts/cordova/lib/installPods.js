@@ -26,7 +26,7 @@ Cases to handle:
 function installPodsSync (projectName, pathToProjectFile, nameOfPod, podSpec) {
     // called from project directory-- when invoked, args are as follows
     //  projectName         = cordovaProject (name) and 
-    //  pathToProjectFile   = path/to/cordovaProject 
+    //  pathToProjectFile   = ./path/to/cordovaProject 
     //  nameOfPod           = obj.src  //from framework tag
     //  podSpec             = obj.spec  //from framework tag   
 
